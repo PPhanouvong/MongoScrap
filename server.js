@@ -41,7 +41,7 @@ app.engine("handlebars", exphbs({
 app.set("view engine", "handlebars");
 
 var db = mongoose.connection;
-var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mongoscrapper";
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mongoscrap";
 
 // Set mongoose to leverage built in JavaScript ES6 Promises
 // Connect to the Mongo DB
